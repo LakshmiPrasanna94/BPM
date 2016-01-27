@@ -1,0 +1,54 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: LakshmiPrasanna94 <lpperumalla@A7541F1D.corp.ads.valuelabs.net>
+#
+# On branch meena
+# Changes to be committed:
+#	new file:   META-INF/defaultKieBase/kbase.cache
+#	new file:   META-INF/kie-deployment-descriptor.xml
+#	new file:   META-INF/kmodule.info
+#	new file:   META-INF/kmodule.xml
+#	new file:   META-INF/maven/org.demo/CIMB/pom.properties
+#	new file:   META-INF/maven/org.demo/CIMB/pom.xml
+#	new file:   org/demo/ApproveLoan-taskform.form
+#	new file:   org/demo/ApproveLoan-taskform.ftl
+#	new file:   org/demo/Banker2Rule.drl
+#	new file:   org/demo/Banker2Task-taskform.ftl
+#	new file:   org/demo/Buttons.class
+#	new file:   org/demo/CIMB.CIMB-taskform.form
+#	new file:   org/demo/CIMB.CIMB-taskform.ftl
+#	new file:   org/demo/CIMB.bpmn2
+#	new file:   org/demo/Cancel-taskform.ftl
+#	new file:   org/demo/CancelledTask-taskform.form
+#	new file:   org/demo/Customer.class
+#	new file:   org/demo/CustomerDetails-taskform.form
+#	new file:   org/demo/CustomerDetails-taskform.ftl
+#	new file:   org/demo/DisplayFields-taskform.form
+#	new file:   org/demo/DisplayFields-taskform.ftl
+#	new file:   org/demo/DisplayLoanDetails-taskform.ftl
+#	new file:   org/demo/ExistingLoan-taskform.form
+#	new file:   org/demo/ExistingLoan-taskform.ftl
+#	new file:   org/demo/LoanDetails.class
+#	new file:   org/demo/LoanTypeRule.drl
+#	new file:   org/demo/NewLoan-taskform.form
+	new file:   org/demo/NewLoan-taskform.ftl
+	new file:   org/demo/NewLoan.class
+	new file:   org/demo/Other1-taskform.form
+	new file:   org/demo/Other1-taskform.ftl
+	new file:   org/demo/Other2-taskform.form
+	new file:   org/demo/Other2-taskform.ftl
+	new file:   org/demo/Personal-taskform.ftl
+	new file:   org/demo/RejectLoan-taskform.form
+	new file:   org/demo/RejectLoan-taskform.ftl
+	new file:   org/demo/RequestType.class
+	new file:   org/demo/RequestTypeRule.drl
+	new file:   org/demo/Rework-taskform.ftl
+	new file:   org/demo/Strategic-taskform.form
+	new file:   org/demo/Strategic-taskform.ftl
+	new file:   org/demo/Taskforbanker2-taskform.form
+	new file:   org/demo/Taskforbanker2-taskform.ftl
+	new file:   org/demo/WorkDefinitions.wid
+#
+

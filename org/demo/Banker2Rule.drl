@@ -1,0 +1,41 @@
+package org.demo;
+import org.demo.Buttons;
+rule "set as approve" ruleflow-group "Banker2Rule"
+no-loop
+when
+	 $b:Buttons(approve==true)
+then
+	modify($b){
+		setApprove(true);
+			}
+ end
+
+rule "set as reject" ruleflow-group "Banker2Rule"
+no-loop
+when
+	 $b:Buttons(reject==true)
+then
+	modify($b){
+		setReject(true);
+			}
+ end
+
+rule "set as rework" ruleflow-group "Banker2Rule"
+no-loop
+when
+	 $b:Buttons(rework==true)
+then
+	modify($b){
+		setRework(true);
+			}
+ end
+
+rule "set as cancel" ruleflow-group "Banker2Rule"
+no-loop
+when
+	 $b:Buttons(cancel==true)
+then
+	modify($b){
+		setCancel(true);
+			}
+ end
