@@ -1,0 +1,40 @@
+package org.demo;
+import org.demo.NewLoan;
+rule "set as personal" ruleflow-group "LoanTypeRule"
+no-loop
+when
+	 $p:NewLoan(personal==true)
+then
+	modify($p){
+		setPersonal(true);
+			}
+ end
+
+rule "set as strategic" ruleflow-group "LoanTypeRule"
+no-loop
+when
+	 $p:NewLoan(strategic==true)
+then
+	modify($p){
+		setStrategic(true);
+			}
+ end
+
+rule "set as corporate" ruleflow-group "LoanTypeRule"
+no-loop
+when
+	 $p:NewLoan(corporate==true)
+then
+	modify($p){
+		setCorporate(true);
+			}
+ end
+rule "set as other" ruleflow-group "LoanTypeRule"
+no-loop
+when
+	 $p:NewLoan(other==true)
+then
+	modify($p){
+		setOther(true);
+			}
+ end
